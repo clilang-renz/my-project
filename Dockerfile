@@ -1,10 +1,10 @@
 FROM node:10.16.0-alpine
 
-WORKDIR /source/github-action-example-node
+WORKDIR /source/my-project
 
-COPY package.json /source/github-action-example-node
+COPY package.json /source/my-project
 
-RUN cd /source/github-action-example-node && npm i --only=production
+RUN cd /source/my-project && npm i --only=production
 
 COPY . .
 

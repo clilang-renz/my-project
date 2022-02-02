@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="A sample node.js application that uses g
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="purple"
 
-LABEL "repository"="https://github.com/abhinavdhasmana/github-action-example-node"
-LABEL "maintainer"="Abhinav Dhasmana <abhinav.dhasmana@live.com>"
+LABEL "repository"="https://github.com/clilang-renz/my-project"
+LABEL "maintainer"="clilang <renz@certifiedlanguages.com>"
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
